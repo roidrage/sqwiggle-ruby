@@ -1,26 +1,9 @@
 bundler_args: --without development
 language: ruby
 rvm:
-  - 1.9.2
-  - 1.9.3
   - 2.0.0
-  - rbx
-  - ruby-head
-matrix:
-  include:
-    - rvm: jruby-19mode
-      env: JRUBY_OPTS="$JRUBY_OPTS --debug"
-    - rvm: jruby-20mode
-      env: JRUBY_OPTS="$JRUBY_OPTS --debug"
-    - rvm: jruby-head
-      env: JRUBY_OPTS="$JRUBY_OPTS --debug"
-  allow_failures:
-    - rvm: jruby-head
-    - rvm: rbx
-    - rvm: ruby-head
-  fast_finish: true
 script: bundle exec rspec
 notifications:
   sqwiggle: 
     rooms:
-      - secure: GCzKzx6svwXQvRekfXojzgJsE7hJz4mb8PMy71d8AWyOYgEGAyKH9Ysb5pXQuMXlWo7esCegzci398FY9+zNzYl8RZxX4AR/uND2scaO8alp09/i6QCz/JdU8JZC5H9tSWPU6xCDAdbPb3XdEYYVZaj23Ckn7SqtYg/KngX5zs8=
+      - secure: "j38bb0fNARwotu8i3ZGwZcMduLJqFLS/IiYXE7dGA7lR7yvt41JQGc/ANaMNJPrkaVt1jisSOZ4kMpUWJXHUt5ZO7Wmljr36NqyHA0Y3axp6EnkltpctL9G+SDYr6k3eQqcNTylQBXNU7ITlzN08CeC3p0RfUXQnPg1S2JwodO4="
