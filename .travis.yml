@@ -6,4 +6,4 @@ script: bundle exec rspec
 notifications:
   sqwiggle: 
     rooms:
-      - secure: "j38bb0fNARwotu8i3ZGwZcMduLJqFLS/IiYXE7dGA7lR7yvt41JQGc/ANaMNJPrkaVt1jisSOZ4kMpUWJXHUt5ZO7Wmljr36NqyHA0Y3axp6EnkltpctL9G+SDYr6k3eQqcNTylQBXNU7ITlzN08CeC3p0RfUXQnPg1S2JwodO4="
+    - secure: "GHjFIrWmRkaSCZE65036WrmiVtKhjqsIatni9irmPWOIBy8h2sCrbMOOJTwpah+RN81ZpXBliu4K9qSKfcRlQdpCY8YtwmHsIy9/bGgkUUHz1a+YJDbLR55z3y8pewuCDEdsotki50j/B/dOk0Tf2522eHyYyIaf7L9FANoY8sw="
